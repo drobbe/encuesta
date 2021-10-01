@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Encuesta</title>
+    <meta name="author" content="Matthew Howell" />
+    <meta name="description" content="fullPage continuous scrolling demo." />
+    <meta name="keywords" content="fullpage,jquery,demo,scroll,loop,continuous" />
+    <meta name="Resource-type" content="Document" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="dist/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="dist/styles.css" />
+    <link href="dist/tabulator_materialize.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="fullpage">
+      <div class="section active" id="section0">
+        <div class="container">
+          <h1>Coloca tu nombre Y luego ve hacia abajo 🔽</h1>
+          <input type="text" class="input" id="name" />
+        </div>
+      </div>
+
+      <div class="section" id="section1">
+        <div class="container">
+          <h1>Por favor Indica tu Genero</h1>
+
+          <div class="select-box">
+            <div class="select-box__current" tabindex="1">
+              <div class="select-box__value">
+                <input class="select-box__input" type="radio" id="Hombre" value="Hombre" name="genero" checked="checked" />
+                <p class="select-box__input-text">Hombre</p>
+              </div>
+              <div class="select-box__value">
+                <input class="select-box__input" type="radio" id="Mujer" value="Mujer" name="genero" />
+                <p class="select-box__input-text">Mujer</p>
+              </div>
+              <img class="select-box__icon" src="http://cdn.onlinewebfonts.com/svg/img_295694.svg" alt="Arrow Icon" aria-hidden="true" />
+            </div>
+            <ul class="select-box__list">
+              <li>
+                <label class="select-box__option" for="Hombre" aria-hidden="aria-hidden">Hombre</label>
+              </li>
+              <li>
+                <label class="select-box__option" for="Mujer" aria-hidden="aria-hidden">Mujer</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="section2">
+        <div class="container">
+          <h1>¿Tienes algún hobby?</h1>
+          <div class="select-box">
+            <div class="select-box__current" tabindex="2">
+              <div class="select-box__value">
+                <input class="select-box__input" type="radio" id="Ninguno" value="Ninguno" name="hobby" checked="checked" />
+                <p class="select-box__input-text">Ninguno</p>
+              </div>
+              <div class="select-box__value">
+                <input class="select-box__input" type="radio" id="Deporte" value="Deporte" name="hobby" />
+                <p class="select-box__input-text">Deporte</p>
+              </div>
+              <div class="select-box__value">
+                <input class="select-box__input" type="radio" id="Musical" value="Musical" name="hobby" />
+                <p class="select-box__input-text">Musical</p>
+              </div>
+              <div class="select-box__value">
+                <input class="select-box__input" type="radio" id="Cocina" value="Cocina" name="hobby" />
+                <p class="select-box__input-text">Cocina</p>
+              </div>
+              <div class="select-box__value">
+                <input class="select-box__input" type="radio" id="Literario" value="Literario" name="hobby" />
+                <p class="select-box__input-text">Literario</p>
+              </div>
+              <div class="select-box__value">
+                <input class="select-box__input" type="radio" id="Manualidades" value="Manualidades" name="hobby" />
+                <p class="select-box__input-text">Manualidades</p>
+              </div>
+              <div class="select-box__value">
+                <input class="select-box__input" type="radio" id="Juegos" value="Juegos" name="hobby" />
+                <p class="select-box__input-text">Juegos</p>
+              </div>
+              <div class="select-box__value">
+                <input class="select-box__input" type="radio" id="Modelismo" value="Modelismo" name="hobby" />
+                <p class="select-box__input-text">Modelismo</p>
+              </div>
+              <div class="select-box__value">
+                <input class="select-box__input" type="radio" id="Baile" value="Baile" name="hobby" />
+                <p class="select-box__input-text">Baile</p>
+              </div>
+              <div class="select-box__value">
+                <input class="select-box__input" type="radio" id="Cine" value="Cine" name="hobby" />
+                <p class="select-box__input-text">Cine</p>
+              </div>
+              <div class="select-box__value">
+                <input class="select-box__input" type="radio" id="Otro" value="Otro" name="hobby" />
+                <p class="select-box__input-text">Otro</p>
+              </div>
+              <img class="select-box__icon" src="http://cdn.onlinewebfonts.com/svg/img_295694.svg" alt="Arrow Icon" aria-hidden="true" />
+            </div>
+            <ul class="select-box__list anchorTop">
+              <li>
+                <label class="select-box__option" for="Ninguno" aria-hidden="aria-hidden">Ninguno</label>
+              </li>
+              <li>
+                <label class="select-box__option" for="Deporte" aria-hidden="aria-hidden">Deporte</label>
+              </li>
+              <li>
+                <label class="select-box__option" for="Musical" aria-hidden="aria-hidden">Musical</label>
+              </li>
+              <li>
+                <label class="select-box__option" for="Cocina" aria-hidden="aria-hidden">Cocina</label>
+              </li>
+              <li>
+                <label class="select-box__option" for="Literario" aria-hidden="aria-hidden">Literario</label>
+              </li>
+              <li>
+                <label class="select-box__option" for="Manualidades" aria-hidden="aria-hidden">Manualidades</label>
+              </li>
+              <li>
+                <label class="select-box__option" for="Juegos" aria-hidden="aria-hidden">Juegos</label>
+              </li>
+              <li>
+                <label class="select-box__option" for="Modelismo" aria-hidden="aria-hidden">Modelismo</label>
+              </li>
+              <li>
+                <label class="select-box__option" for="Baile" aria-hidden="aria-hidden">Baile</label>
+              </li>
+              <li>
+                <label class="select-box__option" for="Cine" aria-hidden="aria-hidden">Cine</label>
+              </li>
+              <li>
+                <label class="select-box__option" for="Otro" aria-hidden="aria-hidden">Otro</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="section3">
+        <div class="container">
+          <h1>Cuánta horas le dedicas al mes?</h1>
+          <div class="select-box">
+            <div class="select-box__current" tabindex="1">
+              <div class="select-box__value">
+                <input class="select-box__input" type="radio" id="Poco" value="Poco" name="tiempo" checked="checked" />
+                <p class="select-box__input-text">Poco</p>
+              </div>
+              <div class="select-box__value">
+                <input class="select-box__input" type="radio" id="Intermedio" value="Intermedio" name="tiempo" />
+                <p class="select-box__input-text">Intermedio</p>
+              </div>
+              <div class="select-box__value">
+                <input class="select-box__input" type="radio" id="Mucho" value="Mucho" name="tiempo" />
+                <p class="select-box__input-text">Mucho</p>
+              </div>
+              <img class="select-box__icon" src="http://cdn.onlinewebfonts.com/svg/img_295694.svg" alt="Arrow Icon" aria-hidden="true" />
+            </div>
+            <ul class="select-box__list">
+              <li>
+                <label class="select-box__option" for="Poco" aria-hidden="aria-hidden">Poco</label>
+              </li>
+              <li>
+                <label class="select-box__option" for="Intermedio" aria-hidden="aria-hidden">Intermedio</label>
+              </li>
+              <li>
+                <label class="select-box__option" for="Mucho" aria-hidden="aria-hidden">Mucho</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="section4">
+        <div class="container">
+          <button class="skewBtn blue" onclick="generateResult()">Enviar</button>
+        </div>
+      </div>
+      <div class="section" id="section5">
+        <button id="backBtn" class="skewBtn blue" onclick="back()">Volver</button>
+        <button id="excel" class="skewBtn blue" onclick="excel()">Reporte</button>
+        <div class="container-col">
+          <div class="pie">
+            <canvas id="genero"></canvas>
+          </div>
+          <div class="pie">
+            <canvas id="hobbys"></canvas>
+          </div>
+          <div class="pie">
+            <canvas id="horas"></canvas>
+          </div>
+        </div>
+        <div class="container-col">
+          <div id="table"></div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="/dist/fullpage.js"></script>
+    <script type="text/javascript" src="/dist/index.js"></script>
+    <script type="text/javascript" src="/dist/chart.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.9.3/dist/js/tabulator.min.js"></script>
+  </body>
+</html>
